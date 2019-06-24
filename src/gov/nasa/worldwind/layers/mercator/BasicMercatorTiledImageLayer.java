@@ -147,7 +147,7 @@ public class BasicMercatorTiledImageLayer extends BasicTiledImageLayer
                 {
                     type = BufferedImage.TYPE_INT_RGB;
                 }
-                else if (type == BufferedImage.TYPE_BYTE_INDEXED)
+                else if (type == BufferedImage.TYPE_BYTE_INDEXED || type == BufferedImage.TYPE_BYTE_BINARY)
                 {
                     type = BufferedImage.TYPE_INT_ARGB;
                 }

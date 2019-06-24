@@ -19,8 +19,8 @@
     <Layer className="gov.nasa.worldwind.layers.Earth.BMNGOneImage">
         <Property name="MinActiveAltitude" value="3e6"/>
     </Layer>
-    <Layer href="config/Earth/BMNGWMSLayer2.xml" actuate="onLoad"/>
-    <Layer href="config/Earth/LandsatI3WMSLayer2.xml" actuate="onLoad"/>
+    <Layer href="config/Earth/BMNGWMSLayer2.xml" actuate="onRequest"/>
+    <Layer href="config/Earth/LandsatI3WMSLayer2.xml" actuate="onRequest"/>
     <!--<Layer href="config/Earth/USDANAIPWMSImageLayer.xml" actuate="onRequest"/>-->
     <Layer href="config/Earth/USGSNAIPPlusLayer.xml" actuate="onRequest"/>
     <!--<Layer href="config/Earth/MSVirtualEarthAerialLayer.xml" actuate="onRequest"/>-->
@@ -36,10 +36,16 @@
     <!--<Layer className="gov.nasa.worldwind.layers.Earth.WikimapiaLayer" actuate="onRequest"/>-->
     <Layer className="gov.nasa.worldwind.layers.Earth.CountryBoundariesLayer" actuate="onRequest"/>
     <Layer href="config/Earth/OpenStreetMap.xml" actuate="onRequest"/>
+
+    <Layer className="gov.nasa.worldwind.layers.Earth.Mapbox_Black" actuate="onRequest"/>
+    <Layer className="gov.nasa.worldwind.layers.Earth.Mapbox_Streets_OSMStyle" actuate="onRequest"/>
+    <Layer className="gov.nasa.worldwind.layers.Earth.Mapbox_Black_2" actuate="onRequest"/>
+    <Layer className="gov.nasa.worldwind.layers.Earth.Mapbox_Streets_OSMStyle_2" actuate="onRequest"/>
+
     <!--<Layer href="config/Earth/WorldBordersShapefile.xml" actuate="onRequest"/>-->
     <Layer href="config/Earth/EarthAtNightLayer.xml" actuate="onRequest"/>
-    <Layer className="gov.nasa.worldwind.layers.Earth.NASAWFSPlaceNameLayer"/>
-    <Layer className="gov.nasa.worldwind.layers.WorldMapLayer"/>
+    <Layer className="gov.nasa.worldwind.layers.Earth.NASAWFSPlaceNameLayer" actuate="onRequest"/>
+    <Layer className="gov.nasa.worldwind.layers.WorldMapLayer" actuate="onRequest"/>
     <Layer className="gov.nasa.worldwind.layers.ScalebarLayer"/>
     <Layer className="gov.nasa.worldwind.layers.CompassLayer"/>
 </LayerList>
