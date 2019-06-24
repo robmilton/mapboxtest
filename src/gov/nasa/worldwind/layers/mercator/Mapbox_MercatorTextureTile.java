@@ -3,7 +3,7 @@
  * National Aeronautics and Space Administration.
  * All Rights Reserved.
  */
-package gov.nasa.worldwind.layers.Earth;
+package gov.nasa.worldwind.layers.mercator;
 
 import gov.nasa.worldwind.WorldWind;
 import gov.nasa.worldwind.geom.Angle;

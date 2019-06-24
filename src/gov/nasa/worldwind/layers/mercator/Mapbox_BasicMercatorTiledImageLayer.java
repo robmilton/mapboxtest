@@ -1,4 +1,4 @@
-package gov.nasa.worldwind.layers.Earth;
+package gov.nasa.worldwind.layers.mercator;
 
 import com.jogamp.opengl.util.texture.TextureData;
 import gov.nasa.worldwind.Configuration;

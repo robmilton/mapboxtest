@@ -1,5 +1,6 @@
 package gov.nasa.worldwind.layers.Earth;
 
+import gov.nasa.worldwind.layers.mercator.Mapbox_BasicMercatorTiledImageLayer;
 import gov.nasa.worldwind.avlist.AVKey;
 import gov.nasa.worldwind.avlist.AVList;
 import gov.nasa.worldwind.avlist.AVListImpl;
